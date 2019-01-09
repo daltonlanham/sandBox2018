@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+#wrapper {
+			background-color: tan;
+			width:			1350px;
+			margin-left:	auto;
+			margin-right:	auto;  
+			height: 2000px;
+			}
+#Header	{
+			background-color: tan;
+			width:			860px;
+			margin-left:	auto;
+			margin-right:	auto;
+			}
+#Main 	{
+			width: 			1250px;
+			margin-left:	auto;
+			margin-right:	auto;
+			background-color: lightblue; 
+			height: 1150px;			
+						}
+#RightSideBox	{
+			background-color: yellow;
+			position:		relative;
+			width:			420px;
+			float:			right;
+			margin-left:	10px;
+			margin-right: 	10px;
+			padding: 		20px;         
+			text-align: 	center;
+			}
+#LeftSideBox	{
+			background-color: yellow;
+			position:       relative;
+			width:			420px;
+			float:			left;
+			margin-left:	10px;
+			margin-right: 	10px;
+			padding: 		20px;
+			height:         1013px; 
+			text-align:     center;
+			}
+			
+
+/* Navigation bar instructions */
+#NavBar {
+			width: 			500px;
+			background-color:  tan;
+			margin-left: 	auto;
+			margin-right: 	auto;
+			text-align: 	center;
+			margin-bottom:	-20px;
+			}
+
+a:hover {
+    		color: white; text-decoration: none;
+			}  
+			
+/* Some styles we know already are familiar with */
+h1 		{
+			color:			yellow; 
+			text-align:		center; 
+			font-family: 	Georgia;
+			font-size: 		36px;
+			}
+body 	{ 		
+			font-family: "Times New Roman" ; 
+			}
+
+
+.boxedText 	{
+			background-color:lightblue;
+			color: 			darkgreen;
+			border-style:	double;
+			border-color:	darkgreen;
+			border-width:	medium;
+			font-size:		18px;
+			padding:		10px;
+			}
+.link {
+    		text-decoration: none; font-size:  x-large;
+			}	
